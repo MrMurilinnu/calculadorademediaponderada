@@ -1,0 +1,11 @@
+import math
+peso1 = int(input('peso da primeira avaliação: '))
+peso2 = int(input('peso da segunda avaliação: '))
+peso3 = int(input('peso da terceira avaliação: '))
+peso4 = int(input('peso da quarta avaliação: '))
+nota1 = int(input('Nota da primeira avaliação: '))
+nota2 = int(input('Nota da segunda avaliação: '))
+nota3 = int(input('Nota da terceira avaliação: '))
+nota4 = int(input('Nota da quarta avaliação: '))
+mediatotal = ((nota1*peso1+nota2*peso2+nota3*peso3+nota4*peso4) / (peso1+peso2+peso3+peso4))
+print(mediatotal)
